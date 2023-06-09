@@ -22,7 +22,7 @@ body{
     background-color: brown;
     color: white;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 9%;
 }
 .amount-section{
     text-align: center;
@@ -35,8 +35,8 @@ body{
     color: gray;
 }
 .amount:hover{
-    border: 2px solid tomato;
-    color: tomato;
+    border: 2px solid rgb(233, 18, 18);
+    color: rgb(226, 12, 12);
 }
 
 .input{
@@ -47,4 +47,43 @@ body{
     border-right: none;
     border-top: none;
 }
+.plans-section h2 {
+    text-align: center;
+}
+.plans-section h3{
+    color: black;
+}
 
+.plans{
+    display: flex;
+    margin-top: 30px;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.plans-card{
+    width: 33%;
+    padding: 2%;
+    margin-left: 2%;
+    border-radius: 2%;
+    color: rgb(88, 88, 88);
+}
+#one{
+    background-color: rgba(204, 108, 52, 0.199);
+}
+#two{
+    background-color: rgba(208, 214, 121, 0.329);
+}
+#three{
+    background-color: rgba(0, 255, 255, 0.212);
+}
+
+.blog-section{
+    display: flex;
+    padding: 11%;
+}
+.blog-section img{
+    width: 80%;
+    margin-left: 15%;
+    border-radius: 5%;
+}
