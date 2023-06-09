@@ -10,12 +10,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
-    
 }
 
 .top-banner h1{
     font-size: 3rem;
     font-weight: 800;
+    background-color: rgba(128, 128, 128, 0.548);
 }
 .button{
     padding: 15px;
@@ -24,3 +24,27 @@ body{
     text-decoration: none;
     border-radius: 30px;
 }
+.amount-section{
+    text-align: center;
+    padding: 50px;
+}
+.amount{
+    display: inline-block;
+    border: 2px solid rgb(155, 154, 154);
+    padding: 20px;
+    color: gray;
+}
+.amount:hover{
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+.input{
+    display: inline-block;
+    width: 550px;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
