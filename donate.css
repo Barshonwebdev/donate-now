@@ -111,3 +111,12 @@ body{
         padding: 10px 9px;
         border-radius: 5%;
 }
+
+.footer-section{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(2, 2, 8);
+    margin-top: 5%;
+    color: crimson;
+    font-family: 'Coming Soon', cursive;
+}
