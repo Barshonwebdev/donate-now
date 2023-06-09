@@ -87,3 +87,27 @@ body{
     margin-left: 15%;
     border-radius: 5%;
 }
+
+.email-section{
+    text-align: center;
+    margin-top: 3%;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.email-subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(250, 228, 192);
+    
+
+}
+.subscribe-button{
+        
+        text-decoration: none;
+        text-align: center;
+        background: rgb(216, 66, 66);
+        padding: 10px 9px;
+        border-radius: 5%;
+}
