@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.top-banner{
+    text-align: center;
+    padding: 230px;
+    background-image: url(./images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    
+}
+
+.top-banner h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.button{
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
